@@ -8,10 +8,21 @@
     <title>Penguine Fashion Tailwind CSS</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
-
+    <h1 class="bg-blue-400 text-6xl">My Header</h1>
 </body>
 
 </html>
